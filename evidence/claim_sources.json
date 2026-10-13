@@ -1,0 +1,817 @@
+{
+  "claims": [
+    {
+      "claim": "元の問いはexperienceX→untrained abilityYの形成/内部変化。OBSは後のscope変更。",
+      "claim_id": "P01",
+      "classification": "INTERPRETATION",
+      "h2_evidence_statuses": {
+        "F001": "CONFIRMED_FROM_CODE",
+        "F002": "CONFIRMED_FROM_CODE",
+        "F003": "CONFIRMED_FROM_CODE",
+        "F004": "CONFIRMED_FROM_CODE"
+      },
+      "h2_fact_ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004"
+      ],
+      "limits": "当初から記述研究だったと書かない。researcher feelings not inferred.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "PHASE0.md": "63e49ec98e1446596a90ca8646ca3eb5f82e9529e0c0c782c58b25f70f7bcd0f",
+          "PHASE0_5.md": "a33ec77c05247a6085bcb363bf80875ea5513f223fb2655bf13c795ed2bbc069"
+        },
+        "record_commits": [
+          "2209bb1e0c469d26b213c18c9e2e4e4537f66891"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "E1架構census/context512/A2/exact horizonを契約から記述。",
+      "claim_id": "P02",
+      "classification": "DIRECT_OBSERVATION",
+      "h2_evidence_statuses": {
+        "F018": "CONFIRMED_FROM_MANIFEST",
+        "F019": "CONFIRMED_FROM_MANIFEST",
+        "F020": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F018",
+        "F019",
+        "F020"
+      ],
+      "limits": "Frozen specification/parameter census, not new model initialization or ability evidence.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_MAIN_TRAINING_CONTRACT.md": "2faa367e7e18bca4c7642df7cbebf344c2cea2a750354747c34d9b21a32ef14d",
+          "model_v1_main_training_contract.json": "34dc7a44d3351f33a80be891205dec2de867d3ee7b96016dd2d02582e4b522e7"
+        },
+        "record_commits": [
+          "19274e7363ed8ea122334dda10faa6409912aaf1"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "Synthetic family1–3 TRAIN/4heldout、NaturalR1、problem-only本文。",
+      "claim_id": "P03",
+      "classification": "DIRECT_OBSERVATION",
+      "h2_evidence_statuses": {
+        "F005": "REPORTED_ONLY",
+        "F006": "REPORTED_ONLY",
+        "F027": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F005",
+        "F006",
+        "F027"
+      ],
+      "limits": "F005/F006はREPORTED_ONLY。Main採用はF027。原dataset/selectionをP1で再auditしたとしない。",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_MAIN_SYNTHETIC_TRAIN_SUPPORT.md": "e85cb3cc57e2828759a274392016726875db9a6d1ad8c340ec91fb13dc3779f5",
+          "NATURAL_ROUND3_HUMAN_REVIEW_PHASE_B.md": "c618f7820775d921f7b9d739d0da1d1ea07b06b10cc9cc30f6e1e7442cf64eb8",
+          "SYNTHETIC_FREEZE_CLEANUP_A.md": "e153672305cecff9cf812d453fe5230894becd03cbb33417de8e94e446fc4ba5",
+          "model_v1_main_synthetic_train_support.json": "a7e98687ac081eb9a02e2b708e3dd07909c917e1af0eeae1d15974132fe74178"
+        },
+        "record_commits": [
+          "a24a5d57632c084b69f8335f87d00f4271f37689",
+          "c1abf958341044129fdd619ca3be6271f6984108",
+          "fb70e3681496bfdd30ca0f64cd9bde4fadb92b37"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "Long-Horizon20M3conditionsの技術監査と中断記録。",
+      "claim_id": "P04",
+      "classification": "DIRECT_OBSERVATION",
+      "h2_evidence_statuses": {
+        "F015": "REPORTED_ONLY",
+        "F016": "CONFIRMED_FROM_MANIFEST",
+        "F017": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F015",
+        "F016",
+        "F017"
+      ],
+      "limits": "Historical reports/manifests; P1 no checkpoint replay; recovery full-state limitations retained.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_PHASE_D3A_LONG_HORIZON_C_PART_A.md": "2fb29318b2bce6ca02258f6423287f1e6fe0fe4ba8b599fa4c56122b9c3335b1",
+          "MODEL_V1_PHASE_D3B_LONG_HORIZON_C_PART_B.md": "1b1c9d228d2efd5a7ef99999dda0e0cee16847d7934ddace241c824303b60e73",
+          "MODEL_V1_PHASE_D3C_LONG_HORIZON_FINAL.md": "86ee8655da6bed4847caf78bc14cb46b503e92b5243d0a34aa79c8b8803ee3bf",
+          "model_v1_phase_d3a.json": "d5bfc237332307e3f9dd5f93a5e23f284ce7d05fb73930eeb3081e2b8aef1f17",
+          "model_v1_phase_d3b.json": "51d99ae360f77f80e0ebf4c4400299f9a5fd3500d781c8ba56e2129fe50d7b8b",
+          "model_v1_phase_d3c.json": "b924b9b389f43fe96d6ddf173f4218de910a1d65e682cd08541b71e5890f501a"
+        },
+        "record_commits": [
+          "7483299d59dda719fa19af5b3e76d3d66f4dc71b",
+          "a36945f0fad851e6b4a9932a47a46686475a2b74",
+          "a66ef61ee47346e5577ad503ddb151db7d66712e"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "native primary feasibility0/36はgold semantics不成立というmodel-free判断。",
+      "claim_id": "P05",
+      "classification": "INTERPRETATION",
+      "h2_evidence_statuses": {
+        "F021": "CONFIRMED_FROM_MANIFEST",
+        "F022": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F021",
+        "F022"
+      ],
+      "limits": "Not a model capability score or capability absence.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_CORE_EVAL_NATIVE_FEASIBILITY.md": "9d9531b98262d41e2d17062b8ffc30b0831b42028fcebd11897ec9440e1f97e8",
+          "MODEL_V1_CORE_EVAL_PROTOCOL_DRAFT.md": "4c17eafa7d1e3a6f0764950530d42f226ad961cd6bcaed7af65481b170501270",
+          "model_v1_core_eval_native_feasibility.json": "3307adf7c91d40ab81083889ac91bdc30dc7a30bcadaa9beb890febe13b3f8be",
+          "model_v1_core_eval_protocol_draft.json": "8f965fe69ca058f7ac66653a367fb7bcfbb9aa3654fe8d2ea734cbfdee7866fa"
+        },
+        "record_commits": [
+          "15019fab4c324772a0e3151d172cbbffe5f72109",
+          "5cfcc4895a1ae4f7590a84ae641e31af25bb92a8"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "27,754−211=27,543blocks/36cells、Primary0/36descriptive。",
+      "claim_id": "P06",
+      "classification": "DIRECT_OBSERVATION",
+      "h2_evidence_statuses": {
+        "F028": "CONFIRMED_FROM_MANIFEST",
+        "F029": "CONFIRMED_FROM_MANIFEST",
+        "F030": "CONFIRMED_FROM_MANIFEST",
+        "F031": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F028",
+        "F029",
+        "F030",
+        "F031"
+      ],
+      "limits": "Construction approval is separate from science;15 affected cells;parent preserved.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_CORE_EVAL_BANK_CONSTRUCTION_E2B1.md": "0f9179f4e0c82677032626267875496d557412808571e8df2c218a14a45e5377",
+          "MODEL_V1_CORE_EVAL_ELIGIBILITY_E2B2.md": "0c1a6791c136b9be49e22cdd89c67aaa7130a5f2efb7de43b28097e0697df9f0",
+          "MODEL_V1_CORE_EVAL_METHOD_DECISION_E2B4.md": "be4b1a4569b8eb080b4305858617e4bc48a552853152d2ce8b6b66803a0a248b",
+          "MODEL_V1_CORE_EVAL_REPAIR_E2B3.md": "248b808f5486307b320564a24b5773dc4ee70492c55a35027ee24dbb7be527a6",
+          "model_v1_core_eval_bank_construction_e2b1.json": "e54b551a19880023e34ec0dfa14771d78985447f996217659233e639c8fd6b48",
+          "model_v1_core_eval_eligibility_e2b2.json": "4b704e3e2ade944a762384d9dff626641c867ef832d0e1455e87e212e3018c43",
+          "model_v1_core_eval_method_decision_e2b4.json": "17c38157f3c9c4152d9d7e15867b8eb0a811c55455fa63ce8bf22142aa8f9a66",
+          "model_v1_core_eval_repair_e2b3.json": "71898915ec1c602bef27ec7c5b022478316d0504c719f7b7b325d4455141ae02"
+        },
+        "record_commits": [
+          "0dac47829181215744c8817d408bea7e63a1be7e",
+          "1f734f28e2c9a25a2033285d55085f5101058939",
+          "3d0dd787cb3122e08c6e10ba0c966ea2497c363d",
+          "5cee366915035580f43b1df9b122b179cfa17e09"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "m=(d0−d1)/2とstrict pair、whole-string causal−1/EOS除外を維持。",
+      "claim_id": "P07",
+      "classification": "DERIVED_MEASUREMENT",
+      "h2_evidence_statuses": {
+        "F032": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F032"
+      ],
+      "limits": "Mean and pair success differ; no chance .25; no p-value; code readback.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_CORE_EVAL_METHOD_DECISION_E2B4.md": "be4b1a4569b8eb080b4305858617e4bc48a552853152d2ce8b6b66803a0a248b",
+          "model_v1_core_eval_method_decision_e2b4.json": "17c38157f3c9c4152d9d7e15867b8eb0a811c55455fa63ce8bf22142aa8f9a66"
+        },
+        "record_commits": [
+          "5cee366915035580f43b1df9b122b179cfa17e09"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "13,319 unequal lengths、shortcutsとliteral lookup controlsの限界。",
+      "claim_id": "P08",
+      "classification": "LIMITATION",
+      "h2_evidence_statuses": {
+        "F031": "CONFIRMED_FROM_MANIFEST",
+        "F038": "CONFIRMED_FROM_MANIFEST",
+        "F039": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F031",
+        "F038",
+        "F039"
+      ],
+      "limits": "Static heuristics neither model-use evidence nor shortcut ceiling.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_CORE_EVAL_METHOD_DECISION_E2B4.md": "be4b1a4569b8eb080b4305858617e4bc48a552853152d2ce8b6b66803a0a248b",
+          "MODEL_V1_SHORTCUT_PRIMARY_SHORTLIST_E2C2.md": "91152e941b1abdc119a3e4ab0f336a6f2a58d471811b78156defe762f2caf599",
+          "model_v1_core_eval_method_decision_e2b4.json": "17c38157f3c9c4152d9d7e15867b8eb0a811c55455fa63ce8bf22142aa8f9a66",
+          "model_v1_shortcut_primary_shortlist_e2c2.json": "e304a5ddb3d964d37a1969326ebda5ac9112cc811326dc945d518e314347eddf"
+        },
+        "record_commits": [
+          "5cee366915035580f43b1df9b122b179cfa17e09",
+          "a03cbffa313019ce6c567ed8945b1f85b8342368"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "M3 RHSの比較的direct pathwayとinverse solution能力は異なる。",
+      "claim_id": "P09",
+      "classification": "INTERPRETATION",
+      "h2_evidence_statuses": {
+        "F034": "CONFIRMED_FROM_MANIFEST",
+        "F035": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F034",
+        "F035"
+      ],
+      "limits": "Learning pressure magnitude/formation probability not quantitatively demonstrated.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_TRAIN_SIGNAL_IDENTIFIABILITY_E2C1.md": "4cb496898b34b471585e705c535b4f2f379a6fd6403dfa96ae93d9092176169a",
+          "model_v1_train_signal_identifiability_e2c1.json": "3d00c5a442a076eed2ceb1b49480cd425ef9ad167357d6537d36e430a303d1ea"
+        },
+        "record_commits": [
+          "d74aac7705d2a2b55c3113744306b9d4213edaf2"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "M3 CF569/986 outside solution draw、value_ood mixed shift、safe labels未実証。",
+      "claim_id": "P10",
+      "classification": "LIMITATION",
+      "h2_evidence_statuses": {
+        "F024": "CONFIRMED_FROM_MANIFEST",
+        "F049": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F049",
+        "F024"
+      ],
+      "limits": "Known after preflight; no retroactive support repair or strict OOD generalization.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_CALIBRATION_PROTOCOL_E2C3.md": "d2d05ef76533a2b2fe6ae37f5d07c2e0dfa79ebc1f34bcd827a372b07bca620f",
+          "MODEL_V1_CORE_EVAL_TARGETED_REVIEW_E2A7.md": "502b302c1316039b5df5e127cba83c3a65795507b0f525645d5fd514f332f217",
+          "model_v1_calibration_protocol_e2c3.json": "51999632f1df03c67e79ace713f78d2e937668878905578b0089d38f5e408777",
+          "model_v1_core_eval_targeted_review_e2a7.json": "faadb3098bb0663caf93c34d453ab4a19eedc057c5d83fb4343211b2943228cb"
+        },
+        "record_commits": [
+          "7be83da7217f649a9b27d400a7a980c7b345f232",
+          "b51c737ba810fda5db1461b964ed979d46fd5a03"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "OriginalC3 one20Mreplicate,B/C shared initial,each50,004,416pred、独立positive基準。",
+      "claim_id": "P11",
+      "classification": "DIRECT_OBSERVATION",
+      "h2_evidence_statuses": {
+        "F041": "CONFIRMED_FROM_MANIFEST",
+        "F042": "CONFIRMED_FROM_CODE"
+      },
+      "h2_fact_ids": [
+        "F041",
+        "F042"
+      ],
+      "limits": "Full planned18runs != actual2; no result-dependent thresholds.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_CALIBRATION_EXECUTION_BINDING_E2C3.md": "0bd942f3b24cdf38b08191191fe9ed301a1da96bfe42f5a432eedbb51ce60779",
+          "MODEL_V1_CALIBRATION_PROTOCOL_E2C3.md": "d2d05ef76533a2b2fe6ae37f5d07c2e0dfa79ebc1f34bcd827a372b07bca620f",
+          "model_v1_calibration_protocol_e2c3.json": "51999632f1df03c67e79ace713f78d2e937668878905578b0089d38f5e408777"
+        },
+        "record_commits": [
+          "b51c737ba810fda5db1461b964ed979d46fd5a03",
+          "f9072c3010e6e65d8c8d7104f20c4b4b57689300"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "B1/1024 vsC36/1024、canonical44 vs1018、controls未成立、D/M1等NOT_RUN。",
+      "claim_id": "P12",
+      "classification": "DIRECT_OBSERVATION",
+      "h2_evidence_statuses": {
+        "F043": "CONFIRMED_FROM_RAW",
+        "F045": "CONFIRMED_FROM_MANIFEST",
+        "F046": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F043",
+        "F045",
+        "F046"
+      ],
+      "limits": "Positive not established; negative specificity not established;raw saved-output checks.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_CALIBRATION_EXECUTION_E2C3.md": "5c7aedc4dd7d14d35528ce2f8f2458817624556539b5af72c20001b099197717",
+          "model_v1_calibration_execution_e2c3.json": "682489d3eb2743aa29ba3ff109f8248e4032cc5e8bc227c9480a8d686ed5788b"
+        },
+        "record_commits": [
+          "0ae379c8d0feda4d72092ed8a2f3a5ffb5961c40"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "C sealed mean .240901128とstrict34/512、B−.007735578/18pairsを区別。",
+      "claim_id": "P13",
+      "classification": "DERIVED_MEASUREMENT",
+      "h2_evidence_statuses": {
+        "F044": "CONFIRMED_FROM_RAW"
+      },
+      "h2_fact_ids": [
+        "F044"
+      ],
+      "limits": "No mean-only PASS or insensitive-scorer conclusion.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_CALIBRATION_EXECUTION_E2C3.md": "5c7aedc4dd7d14d35528ce2f8f2458817624556539b5af72c20001b099197717",
+          "model_v1_calibration_execution_e2c3.json": "682489d3eb2743aa29ba3ff109f8248e4032cc5e8bc227c9480a8d686ed5788b"
+        },
+        "record_commits": [
+          "0ae379c8d0feda4d72092ed8a2f3a5ffb5961c40"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "4756841answer-content loss exposuresを監査したがoriginal answer loss/fit/intermediate competence欠測。",
+      "claim_id": "P14",
+      "classification": "DIRECT_OBSERVATION",
+      "h2_evidence_statuses": {
+        "F047": "CONFIRMED_FROM_MANIFEST",
+        "F048": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F047",
+        "F048"
+      ],
+      "limits": "Exposure count is not sufficient supervision or causal mechanism.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_CALIBRATION_DIAGNOSIS_E2C3.md": "8793dc2d48fbfe5d8e3d4651d9806edd123256a2ca5920df4dcb2554f7d14eb5",
+          "model_v1_calibration_diagnosis_e2c3.json": "90b99b8b08efd0c79fad99de0c2a7bf054efb34fcf95ef207b8859629929965a"
+        },
+        "record_commits": [
+          "16c995c1b039bf245b85c7454649f772cc16e357"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "Limiteda*x0+b=r、onefresh20M/seed/run、world-disjoint partitionsとfixed50M。",
+      "claim_id": "P15",
+      "classification": "DIRECT_OBSERVATION",
+      "h2_evidence_statuses": {
+        "F050": "CONFIRMED_FROM_MANIFEST",
+        "F051": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F050",
+        "F051"
+      ],
+      "limits": "Conditional calibration law != unrestrictedM3/Main law.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_LIMITED_M3_CALIBRATION_PROTOCOL.md": "76e4ab5fca2284a13fa807a27431b8c25b9f218bfd0b0bfd42a79b1f47f13f52",
+          "model_v1_limited_m3_calibration_protocol.json": "58e9e42e51cdf3f49cb9c8f423f0df5973270161bcb35c19c5f5970196e4c7db"
+        },
+        "record_commits": [
+          "da40ec5d6c3f5505ff5746079650323c321052e3"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "Limitedfit511/512、dev34/256、heldout38/512、strictgeneration0/256、StageCNOT_RUN。",
+      "claim_id": "P16",
+      "classification": "DIRECT_OBSERVATION",
+      "h2_evidence_statuses": {
+        "F052": "CONFIRMED_FROM_RAW",
+        "F053": "CONFIRMED_FROM_RAW",
+        "F054": "CONFIRMED_FROM_MANIFEST",
+        "F055": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F052",
+        "F053",
+        "F054",
+        "F055"
+      ],
+      "limits": "0/256 is generation, not paired scorer. Memorization-only explanation unproved.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_LIMITED_M3_CALIBRATION_EXECUTION.md": "8cd977a80ce92fcc15dd483df61fdfe18353fd677c1b8a228e53e5a7e03cbbb8",
+          "model_v1_limited_m3_calibration_execution.json": "9c36cb08c71443acd4b202c53dd08fdd03328d5345f2d74a2d211e0dcba8d3e3"
+        },
+        "record_commits": [
+          "da3fcf0a79ce4552a8770ec3dd59ba74d36432de"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "OBS0でdescriptive observationへ変更、Primary0/positive未成立を維持。",
+      "claim_id": "P17",
+      "classification": "INTERPRETATION",
+      "h2_evidence_statuses": {
+        "F057": "CONFIRMED_FROM_MANIFEST",
+        "F073": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F057",
+        "F073"
+      ],
+      "limits": "Old4/5/T landmarks not automatically used; history retained.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_HANDOFF_OBS5.md": "cce2587bc3e58bb0ef85ad6ff053936a6e967294e22456a86adad4617702ba73",
+          "MODEL_V1_OBSERVATION_TRANSITION_OBS0.md": "d5a1f7c9bb4e593b3a9cd06f4e5e6f059e417c1381424c78f5c2441cea4c10dd",
+          "model_v1_handoff_obs5.json": "602288dda08e6a8d625b2f707c06feb15c7ae6177106bad3aa61aed5d89d7527",
+          "model_v1_observation_transition_obs0.json": "abbde5b1e90b19021e427bc13db0e2e7a46fc754ee8d5090c0360b03e508c67c"
+        },
+        "record_commits": [
+          "1925d251fbc749a46300a68faaf44e6373b53836",
+          "e058413e125bdf770c5a75c8c5e6f64638e409dc"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "15r0 design、10M-first研究者判断、frozen seed/stream/init sharing。",
+      "claim_id": "P18",
+      "classification": "DIRECT_OBSERVATION",
+      "h2_evidence_statuses": {
+        "F058": "CONFIRMED_FROM_MANIFEST",
+        "F059": "CONFIRMED_FROM_MANIFEST",
+        "F064": "CONFIRMED_FROM_MANIFEST",
+        "F065": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F058",
+        "F059",
+        "F064",
+        "F065"
+      ],
+      "limits": "Proposal20M-first and execution_authorized=false are historical; approval overlay separate.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_OBSERVATION_DECISION_OBS2.md": "a05117ed1680406c4763a4534dd30dd888efeceb1105acc928c6fa0de32d9f49",
+          "MODEL_V1_OBSERVATION_EXECUTION_OBS5.md": "255e8ecb23e704f9a7498baf7ec7d39d1a46ae0dc6f4ac2a92d7e4f3e1326147",
+          "MODEL_V1_OBSERVATION_PROTOCOL_OBS1.md": "237c74faf6ad42eab5e354fc6ac80e73a65f55bf0a60d0b1488c3d0d5a2d637b",
+          "model_v1_observation_decision_obs2.json": "6133272c77e25d23cf851a310cbd63a471b8e300f7ad9da11038e21f6f934751",
+          "model_v1_observation_execution_obs5.json": "713e0ede8edae4f610fa95bcb241bc9951560614972b7603d49752f2a3c0fb8f",
+          "model_v1_observation_protocol_obs1.json": "7b774749c3a0fdce89a0d1c25e66d94396f3679527e7e10b6208275d550b1fec"
+        },
+        "record_commits": [
+          "1760d2481c9f09f55d2a99dc7280821a6b3a1c92",
+          "710bdd372cc7dfc95ed0addc30b9cf3364b3998f",
+          "7ee3e0315b57f18b0f39bdb37bc077aafa90f2df"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "25checkpoint/9Full updates、0/endpoint含む、Fastなし。",
+      "claim_id": "P19",
+      "classification": "DIRECT_OBSERVATION",
+      "h2_evidence_statuses": {
+        "F067": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F067"
+      ],
+      "limits": "Sparse discrete observations; no post-result cadence changes.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_OBSERVATION_EXECUTION_OBS5.md": "255e8ecb23e704f9a7498baf7ec7d39d1a46ae0dc6f4ac2a92d7e4f3e1326147",
+          "model_v1_observation_execution_obs5.json": "713e0ede8edae4f610fa95bcb241bc9951560614972b7603d49752f2a3c0fb8f"
+        },
+        "record_commits": [
+          "1760d2481c9f09f55d2a99dc7280821a6b3a1c92"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "10M/MIX/r0 fresh initialization61,156updates/2,000,045,824pred、each500,011,456。",
+      "claim_id": "P20",
+      "classification": "DIRECT_OBSERVATION",
+      "h2_evidence_statuses": {
+        "F067": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F067"
+      ],
+      "limits": "Historical ledger verification;1/15 only;P1 no full2B replay.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_OBSERVATION_EXECUTION_OBS5.md": "255e8ecb23e704f9a7498baf7ec7d39d1a46ae0dc6f4ac2a92d7e4f3e1326147",
+          "model_v1_observation_execution_obs5.json": "713e0ede8edae4f610fa95bcb241bc9951560614972b7603d49752f2a3c0fb8f"
+        },
+        "record_commits": [
+          "1760d2481c9f09f55d2a99dc7280821a6b3a1c92"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "Training endpointloss9.035449→1.501436、lastinterval1.505934、25domainprobe metrics。",
+      "claim_id": "P21",
+      "classification": "DERIVED_MEASUREMENT",
+      "h2_evidence_statuses": {
+        "F068": "CONFIRMED_FROM_RAW"
+      },
+      "h2_fact_ids": [
+        "F068"
+      ],
+      "limits": "Saved objective/probe metrics;not ability;0-update training loss N/A;different domain distributions.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_HANDOFF_OBS5.md": "cce2587bc3e58bb0ef85ad6ff053936a6e967294e22456a86adad4617702ba73",
+          "model_v1_handoff_obs5.json": "602288dda08e6a8d625b2f707c06feb15c7ae6177106bad3aa61aed5d89d7527"
+        },
+        "record_commits": [
+          "e058413e125bdf770c5a75c8c5e6f64638e409dc"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "All36×9 fixed-bank margin/PAIR_CORRECT values preserved.",
+      "claim_id": "P22",
+      "classification": "DERIVED_MEASUREMENT",
+      "h2_evidence_statuses": {
+        "F068": "CONFIRMED_FROM_RAW",
+        "F071": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F068",
+        "F071"
+      ],
+      "limits": "No cell selection/normalization/single capability total;smallN and one seed.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_HANDOFF_OBS5.md": "cce2587bc3e58bb0ef85ad6ff053936a6e967294e22456a86adad4617702ba73",
+          "model_v1_handoff_obs5.json": "602288dda08e6a8d625b2f707c06feb15c7ae6177106bad3aa61aed5d89d7527"
+        },
+        "record_commits": [
+          "e058413e125bdf770c5a75c8c5e6f64638e409dc"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "Fivecontrolgroups×9、three diagnostic kinds×9 retained。",
+      "claim_id": "P23",
+      "classification": "DERIVED_MEASUREMENT",
+      "h2_evidence_statuses": {
+        "F039": "CONFIRMED_FROM_MANIFEST",
+        "F071": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F039",
+        "F071"
+      ],
+      "limits": "Controls lookup-limited,sham no formal null,POSITION bookkeeping aliases only.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_HANDOFF_OBS5.md": "cce2587bc3e58bb0ef85ad6ff053936a6e967294e22456a86adad4617702ba73",
+          "MODEL_V1_SHORTCUT_PRIMARY_SHORTLIST_E2C2.md": "91152e941b1abdc119a3e4ab0f336a6f2a58d471811b78156defe762f2caf599",
+          "model_v1_handoff_obs5.json": "602288dda08e6a8d625b2f707c06feb15c7ae6177106bad3aa61aed5d89d7527",
+          "model_v1_shortcut_primary_shortlist_e2c2.json": "e304a5ddb3d964d37a1969326ebda5ac9112cc811326dc945d518e314347eddf"
+        },
+        "record_commits": [
+          "a03cbffa313019ce6c567ed8945b1f85b8342368",
+          "e058413e125bdf770c5a75c8c5e6f64638e409dc"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "Actual-consumed matches planned projection:body1944/world7507/diagbody192membermatches。",
+      "claim_id": "P24",
+      "classification": "DIRECT_OBSERVATION",
+      "h2_evidence_statuses": {
+        "F069": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F069"
+      ],
+      "limits": "Member counts != independent blocks;sourceID/prefix0 != world novelty.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_OBSERVATION_EXECUTION_OBS5.md": "255e8ecb23e704f9a7498baf7ec7d39d1a46ae0dc6f4ac2a92d7e4f3e1326147",
+          "model_v1_observation_execution_obs5.json": "713e0ede8edae4f610fa95bcb241bc9951560614972b7603d49752f2a3c0fb8f"
+        },
+        "record_commits": [
+          "1760d2481c9f09f55d2a99dc7280821a6b3a1c92"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "OBS5stage12720.112s/launch12817.048s/Full868.924s、checkpoint4225593932bytes/run5.2GiB。",
+      "claim_id": "P25",
+      "classification": "DIRECT_OBSERVATION",
+      "h2_evidence_statuses": {
+        "F056": "CONFIRMED_FROM_MANIFEST",
+        "F070": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F070",
+        "F056"
+      ],
+      "limits": "Manifest/snapshot clocks;GPU-active unmeasured;limitedclock discrepancy distinct;budget not actual14results.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_LIMITED_M3_CALIBRATION_EXECUTION.md": "8cd977a80ce92fcc15dd483df61fdfe18353fd677c1b8a228e53e5a7e03cbbb8",
+          "MODEL_V1_OBSERVATION_EXECUTION_OBS5.md": "255e8ecb23e704f9a7498baf7ec7d39d1a46ae0dc6f4ac2a92d7e4f3e1326147",
+          "model_v1_limited_m3_calibration_execution.json": "9c36cb08c71443acd4b202c53dd08fdd03328d5345f2d74a2d211e0dcba8d3e3",
+          "model_v1_observation_execution_obs5.json": "713e0ede8edae4f610fa95bcb241bc9951560614972b7603d49752f2a3c0fb8f"
+        },
+        "record_commits": [
+          "1760d2481c9f09f55d2a99dc7280821a6b3a1c92",
+          "da3fcf0a79ce4552a8770ec3dd59ba74d36432de"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "2 pre-init collisions and later approval overlay recorded。",
+      "claim_id": "P26",
+      "classification": "DIRECT_OBSERVATION",
+      "h2_evidence_statuses": {
+        "F059": "CONFIRMED_FROM_MANIFEST",
+        "F064": "CONFIRMED_FROM_MANIFEST",
+        "F066": "REPORTED_ONLY"
+      },
+      "h2_fact_ids": [
+        "F066",
+        "F059",
+        "F064"
+      ],
+      "limits": "F066REPORTED_ONLY;second event not separately recorded;no invented details;no scientific condition rescue.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_OBSERVATION_DECISION_OBS2.md": "a05117ed1680406c4763a4534dd30dd888efeceb1105acc928c6fa0de32d9f49",
+          "MODEL_V1_OBSERVATION_EXECUTION_OBS5.md": "255e8ecb23e704f9a7498baf7ec7d39d1a46ae0dc6f4ac2a92d7e4f3e1326147",
+          "model_v1_observation_decision_obs2.json": "6133272c77e25d23cf851a310cbd63a471b8e300f7ad9da11038e21f6f934751",
+          "model_v1_observation_execution_obs5.json": "713e0ede8edae4f610fa95bcb241bc9951560614972b7603d49752f2a3c0fb8f"
+        },
+        "record_commits": [
+          "1760d2481c9f09f55d2a99dc7280821a6b3a1c92",
+          "7ee3e0315b57f18b0f39bdb37bc077aafa90f2df"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "No ability-emergence/absence/causal/seed-generalization approval。",
+      "claim_id": "P27",
+      "classification": "LIMITATION",
+      "h2_evidence_statuses": {
+        "F073": "CONFIRMED_FROM_MANIFEST",
+        "F074": "UNVERIFIED"
+      },
+      "h2_fact_ids": [
+        "F073",
+        "F074"
+      ],
+      "limits": "F074UNVERIFIED is absent scientific evidence,not causal negative result.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_HANDOFF_OBS5.md": "cce2587bc3e58bb0ef85ad6ff053936a6e967294e22456a86adad4617702ba73",
+          "model_v1_handoff_obs5.json": "602288dda08e6a8d625b2f707c06feb15c7ae6177106bad3aa61aed5d89d7527"
+        },
+        "record_commits": [
+          "e058413e125bdf770c5a75c8c5e6f64638e409dc"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "14NOT_STARTED require new researcher execution instruction and trajectory start gates。",
+      "claim_id": "P28",
+      "classification": "FUTURE_PLAN",
+      "h2_evidence_statuses": {
+        "F072": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F072"
+      ],
+      "limits": "No automatic training/newseed/calibration/bank revision/publication.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_HANDOFF_OBS5.md": "cce2587bc3e58bb0ef85ad6ff053936a6e967294e22456a86adad4617702ba73",
+          "model_v1_handoff_obs5.json": "602288dda08e6a8d625b2f707c06feb15c7ae6177106bad3aa61aed5d89d7527"
+        },
+        "record_commits": [
+          "e058413e125bdf770c5a75c8c5e6f64638e409dc"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "AI assistance and user-directed review history;originalreview transcripts/contributor mapping missing。",
+      "claim_id": "P29",
+      "classification": "LIMITATION",
+      "h2_evidence_statuses": {
+        "F036": "REPORTED_ONLY",
+        "F037": "UNVERIFIED"
+      },
+      "h2_fact_ids": [
+        "F036",
+        "F037"
+      ],
+      "limits": "REPORTED_ONLY/UNVERIFIED;not human peer review;authornames/roles require researcher approval.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_TRAIN_SIGNAL_IDENTIFIABILITY_E2C1.md": "4cb496898b34b471585e705c535b4f2f379a6fd6403dfa96ae93d9092176169a",
+          "model_v1_train_signal_identifiability_e2c1.json": "3d00c5a442a076eed2ceb1b49480cd425ef9ad167357d6537d36e430a303d1ea"
+        },
+        "record_commits": [
+          "d74aac7705d2a2b55c3113744306b9d4213edaf2"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "Local drafts only;source/data/tokenizer/weight/figure rights and publication permission remain gates。",
+      "claim_id": "P30",
+      "classification": "LIMITATION",
+      "h2_evidence_statuses": {
+        "F072": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F072"
+      ],
+      "limits": "License pages located does not approve redistribution;external evidence separately listed.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_HANDOFF_OBS5.md": "cce2587bc3e58bb0ef85ad6ff053936a6e967294e22456a86adad4617702ba73",
+          "model_v1_handoff_obs5.json": "602288dda08e6a8d625b2f707c06feb15c7ae6177106bad3aa61aed5d89d7527"
+        },
+        "record_commits": [
+          "e058413e125bdf770c5a75c8c5e6f64638e409dc"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    },
+    {
+      "claim": "Fit/optimization/generalization/difficulty/packing may contribute to originalpositive failure。",
+      "claim_id": "P31",
+      "classification": "HYPOTHESIS",
+      "h2_evidence_statuses": {
+        "F048": "CONFIRMED_FROM_MANIFEST"
+      },
+      "h2_fact_ids": [
+        "F048"
+      ],
+      "limits": "Hypotheses not uniquely attributed;limited failure does not settle original failure mechanism.",
+      "private_record_fingerprint": {
+        "document_sha256": {
+          "MODEL_V1_CALIBRATION_DIAGNOSIS_E2C3.md": "8793dc2d48fbfe5d8e3d4651d9806edd123256a2ca5920df4dcb2554f7d14eb5",
+          "model_v1_calibration_diagnosis_e2c3.json": "90b99b8b08efd0c79fad99de0c2a7bf054efb34fcf95ef207b8859629929965a"
+        },
+        "record_commits": [
+          "16c995c1b039bf245b85c7454649f772cc16e357"
+        ]
+      },
+      "public_verifiability": "Aggregates can be recomputed where supplied;historical raw/model evidence not released"
+    }
+  ],
+  "h2_status_counts": {
+    "CONFIRMED_FROM_CODE": 5,
+    "CONFIRMED_FROM_MANIFEST": 55,
+    "CONFIRMED_FROM_RAW": 5,
+    "ESTIMATED": 1,
+    "REPORTED_ONLY": 6,
+    "UNVERIFIED": 2
+  },
+  "raw_evidence_released": false,
+  "scientific_primary_approvals": 0,
+  "status": "PUBLIC_DERIVED_EVIDENCE_CATALOG"
+}

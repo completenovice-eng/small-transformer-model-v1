@@ -1,0 +1,74 @@
+{
+  "actual_note_UI": "NOT_TESTED;360px raster previews are local layout checks only",
+  "data_sha256": {
+    "limited_m3_terminal.csv": "611046337996ef595a0d4054b8517d7df453066f238987cb739f7ac2bc45584c",
+    "limited_m3_trajectory.csv": "6be0b217ba7a3b8ef8ac062691afd997857e134b96416f7af79e0a495c397386",
+    "training_intervals.csv": "727e39c0b43ddc5afeffc0fe31624b8426f0feed486323d3e951942034cadc46"
+  },
+  "figures": [
+    {
+      "canvas_width_inches": 3.6,
+      "dpi": 240,
+      "inputs": [],
+      "meaning": "Research history schematic; four cards combine all six original stages; no time scale or new outcome.",
+      "minimum_font_css_px_at_360": 15.972222222222223,
+      "minimum_font_points": 11.5,
+      "name": "note_fig01_history_ja",
+      "outputs": {
+        "note_fig01_history_ja.png": "c5dda17073b894ae26ddcf6c2fc90c5161839793a6a4f7cf7e4a3a568e557cb6",
+        "note_fig01_history_ja.svg": "d4d5ccb6bde926549cc9fa3aeaf9284fa98d35c71d28845854fbb69832195d9a"
+      },
+      "source_figures": [
+        1
+      ]
+    },
+    {
+      "canvas_width_inches": 3.6,
+      "dpi": 240,
+      "inputs": [
+        "limited_m3_trajectory",
+        "limited_m3_terminal"
+      ],
+      "meaning": "Same five saved observations and terminal counts; 0/256 is independent generation, not paired scorer; no capability or causal attribution.",
+      "minimum_font_css_px_at_360": 15.972222222222223,
+      "minimum_font_points": 11.5,
+      "name": "note_fig02_limited_m3_ja",
+      "outputs": {
+        "note_fig02_limited_m3_ja.png": "08589465d405ae41342ccc2e1350becec71e86a3545918b3f4eaa28d6f5a9f6f",
+        "note_fig02_limited_m3_ja.svg": "2cca5b29265c707e13e1d5fb50b026053ec3ca5ac38a377b576542d600ba05e0"
+      },
+      "source_figures": [
+        7
+      ]
+    },
+    {
+      "canvas_width_inches": 3.6,
+      "dpi": 240,
+      "inputs": [
+        "training_intervals"
+      ],
+      "meaning": "Same 24 nonoverlapping interval means and endpoint batches; unchanged full y0–10, x0–exact2B, symlog linthresh .001; stacked instead of side by side.",
+      "minimum_font_css_px_at_360": 15.972222222222223,
+      "minimum_font_points": 11.5,
+      "name": "note_fig03_training_loss_ja",
+      "outputs": {
+        "note_fig03_training_loss_ja.png": "6325f8aed9f48f1ab1b0fbae79d6911bd0c5f2fa5c05c789e82b0ad3ec1a9a21",
+        "note_fig03_training_loss_ja.svg": "7734377c911968a9888dc54f042ba8ac1e8096bc158f92c73bd24369402ec092"
+      },
+      "source_figures": [
+        3
+      ]
+    }
+  ],
+  "font": {
+    "bundled": false,
+    "license": "SIL-OFL-1.1",
+    "license_url": "https://github.com/notofonts/noto-cjk/blob/main/Sans/LICENSE",
+    "sha256": "68a3fc98800b2a27b371f2fb79991daf3633bd89309d4ffaa6946fd587f375b5",
+    "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/OTF/Japanese/NotoSansCJKjp-Regular.otf"
+  },
+  "minimum_font_css_px_at_360": 15.972222222222223,
+  "model_forward": 0,
+  "training": 0,
+  "version": "display-ja-v1"
+}

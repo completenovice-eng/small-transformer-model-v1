@@ -1,0 +1,190 @@
+{
+  "status": "OBS-5中間報告",
+  "references": [
+    {
+      "reference_id": "R01",
+      "kind": "paper",
+      "title": "Attention Is All You Need",
+      "authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Lukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "year_or_version": "2017",
+      "identifier": "arXiv:1706.03762",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "verification": "PRIMARY_PAGE_READ_P1",
+      "checked_date": "2026-10-13",
+      "scope": "Bibliographic metadata/license location only;not reproduction or redistribution approval;not retroactive Phase0 citation history."
+    },
+    {
+      "reference_id": "R02",
+      "kind": "paper",
+      "title": "Decoupled Weight Decay Regularization",
+      "authors": [
+        "Ilya Loshchilov",
+        "Frank Hutter"
+      ],
+      "year_or_version": "2017 preprint / ICLR2019",
+      "identifier": "arXiv:1711.05101",
+      "url": "https://arxiv.org/abs/1711.05101",
+      "verification": "PRIMARY_PAGE_READ_P1",
+      "checked_date": "2026-10-13",
+      "scope": "Bibliographic metadata/license location only;not reproduction or redistribution approval;not retroactive Phase0 citation history."
+    },
+    {
+      "reference_id": "R03",
+      "kind": "paper",
+      "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+      "authors": [
+        "Jianlin Su",
+        "Yu Lu",
+        "Shengfeng Pan",
+        "Ahmed Murtadha",
+        "Bo Wen",
+        "Yunfeng Liu"
+      ],
+      "year_or_version": "2021 preprint / v5 2023",
+      "identifier": "arXiv:2104.09864",
+      "url": "https://arxiv.org/abs/2104.09864",
+      "verification": "PRIMARY_PAGE_READ_P1",
+      "checked_date": "2026-10-13",
+      "scope": "Bibliographic metadata/license location only;not reproduction or redistribution approval;not retroactive Phase0 citation history."
+    },
+    {
+      "reference_id": "R04",
+      "kind": "paper",
+      "title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+      "authors": [
+        "Taku Kudo",
+        "John Richardson"
+      ],
+      "year_or_version": "2018",
+      "identifier": "10.18653/v1/D18-2012",
+      "url": "https://aclanthology.org/D18-2012/",
+      "verification": "PRIMARY_PAGE_READ_P1",
+      "checked_date": "2026-10-13",
+      "scope": "Bibliographic metadata/license location only;not reproduction or redistribution approval;not retroactive Phase0 citation history."
+    },
+    {
+      "reference_id": "R05",
+      "kind": "paper",
+      "title": "TinyStories: How Small Can Language Models Be and Still Speak Coherent English?",
+      "authors": [
+        "Ronen Eldan",
+        "Yuanzhi Li"
+      ],
+      "year_or_version": "2023",
+      "identifier": "arXiv:2305.07759",
+      "url": "https://arxiv.org/abs/2305.07759",
+      "verification": "PRIMARY_PAGE_READ_P1",
+      "checked_date": "2026-10-13",
+      "scope": "Bibliographic metadata/license location only;not reproduction or redistribution approval;not retroactive Phase0 citation history."
+    },
+    {
+      "reference_id": "L01",
+      "kind": "dataset_card",
+      "title": "TinyStories pinned README",
+      "authors": [
+        "roneneldan/TinyStories"
+      ],
+      "year_or_version": "pinned f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+      "identifier": "CDLA-Sharing-1.0 declaration",
+      "url": "https://huggingface.co/datasets/roneneldan/TinyStories/blob/f54c09fd23315a6f9c86f9dc80f725de7d8f9c64/README.md",
+      "verification": "PRIMARY_PAGE_READ_P1",
+      "checked_date": "2026-10-13",
+      "scope": "Bibliographic metadata/license location only;not reproduction or redistribution approval;not retroactive Phase0 citation history."
+    },
+    {
+      "reference_id": "L02",
+      "kind": "license",
+      "title": "Community Data License Agreement Sharing1.0",
+      "authors": [
+        "CDLA"
+      ],
+      "year_or_version": "1.0",
+      "identifier": "CDLA-Sharing-1.0",
+      "url": "https://cdla.dev/sharing-1-0/",
+      "verification": "PRIMARY_PAGE_READ_P1",
+      "checked_date": "2026-10-13",
+      "scope": "Bibliographic metadata/license location only;not reproduction or redistribution approval;not retroactive Phase0 citation history."
+    },
+    {
+      "reference_id": "L03",
+      "kind": "license",
+      "title": "SentencePiece LICENSE",
+      "authors": [
+        "Google SentencePiece"
+      ],
+      "year_or_version": "v0.2.2",
+      "identifier": "Apache-2.0 source located",
+      "url": "https://github.com/google/sentencepiece/blob/v0.2.2/LICENSE",
+      "verification": "PRIMARY_PAGE_READ_P1",
+      "checked_date": "2026-10-13",
+      "scope": "Bibliographic metadata/license location only;not reproduction or redistribution approval;not retroactive Phase0 citation history."
+    },
+    {
+      "reference_id": "L04",
+      "kind": "license",
+      "title": "PyTorch LICENSE",
+      "authors": [
+        "PyTorch contributors"
+      ],
+      "year_or_version": "v2.9.1",
+      "identifier": "BSD-style notices / bundled notices need separate review",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.9.1/LICENSE",
+      "verification": "PRIMARY_PAGE_READ_P1",
+      "checked_date": "2026-10-13",
+      "scope": "Bibliographic metadata/license location only;not reproduction or redistribution approval;not retroactive Phase0 citation history."
+    },
+    {
+      "reference_id": "L05",
+      "kind": "license",
+      "title": "NumPy LICENSE",
+      "authors": [
+        "NumPy developers"
+      ],
+      "year_or_version": "v2.2.6",
+      "identifier": "BSD-style source located",
+      "url": "https://github.com/numpy/numpy/blob/v2.2.6/LICENSE.txt",
+      "verification": "PRIMARY_PAGE_READ_P1",
+      "checked_date": "2026-10-13",
+      "scope": "Bibliographic metadata/license location only;not reproduction or redistribution approval;not retroactive Phase0 citation history."
+    },
+    {
+      "reference_id": "L06",
+      "kind": "license",
+      "title": "Matplotlib license",
+      "authors": [
+        "Matplotlib contributors"
+      ],
+      "year_or_version": "3.10.7",
+      "identifier": "PSF-based license and font/dependency notices",
+      "url": "https://matplotlib.org/3.10.7/project/license.html",
+      "verification": "PRIMARY_PAGE_READ_P1",
+      "checked_date": "2026-10-13",
+      "scope": "Bibliographic metadata/license location only;not reproduction or redistribution approval;not retroactive Phase0 citation history."
+    },
+    {
+      "reference_id": "L07",
+      "kind": "license",
+      "title": "Python history and license",
+      "authors": [
+        "Python Software Foundation"
+      ],
+      "year_or_version": "3.12 docs;mutable patch documentation",
+      "identifier": "PSF license source;exact historicalruntime remains pinned separately",
+      "url": "https://docs.python.org/3.12/license.html",
+      "verification": "PRIMARY_PAGE_READ_P1",
+      "checked_date": "2026-10-13",
+      "scope": "Bibliographic metadata/license location only;not reproduction or redistribution approval;not retroactive Phase0 citation history."
+    }
+  ],
+  "original_phase0_bibliography": "NOT_FOUND_IN_REVIEWED_RECORDS",
+  "redistribution_approved": false
+}

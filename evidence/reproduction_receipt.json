@@ -1,0 +1,35 @@
+{
+  "data_sha256": {
+    "data/cell_trajectories.csv": "c6b90e9e328d868f731c9ddeaf8cb3b8820ae2da6179fc4d02151563a62bc59d",
+    "data/condition_matrix.csv": "1b26d3989b2232124fc76a95952daa942ec86016a54de07673e651b81534049a",
+    "data/interface_controls.csv": "0e76607490812a872118879750a4dc46ca797b74dac78682b7a7544201fb5749",
+    "data/limited_m3_terminal.csv": "611046337996ef595a0d4054b8517d7df453066f238987cb739f7ac2bc45584c",
+    "data/limited_m3_trajectory.csv": "6be0b217ba7a3b8ef8ac062691afd997857e134b96416f7af79e0a495c397386",
+    "data/negative_diagnostics.csv": "3130fd0102e57a369a58bafecf1e51c9121782c58525c2ee84e360ebb7f63ae0",
+    "data/probe_nll.csv": "5cc077f74f35c09644eb0efe5033047230831625077e393aebb6ac886bd35a33",
+    "data/training_intervals.csv": "727e39c0b43ddc5afeffc0fe31624b8426f0feed486323d3e951942034cadc46"
+  },
+  "image_sha256": {
+    "figures/fig01_research_history.png": "a4a73ee7ebdce58ef5d2756910edf61928bc9215c893d52e0617481db5a23a67",
+    "figures/fig01_research_history.svg": "0d6facb1de0d6b3affa3ad86b219f870151cdaa0c18f1305cbbcb8cc0ca456b0",
+    "figures/fig02_condition_matrix.png": "fe0f1565bbbb89aa99969624c55760a661a74a5309099a9087c697450667b46a",
+    "figures/fig02_condition_matrix.svg": "23089a62eff830fd9f5c4cb20f142fdf9e1852c51506f1a63693b6876a59260d",
+    "figures/fig03_training_loss.png": "319fa4024c4c3c9d7e48bc192c21f02e0bfddd3c5a7c09d07480c1e78c4f6105",
+    "figures/fig03_training_loss.svg": "7ff4b179f1600a506bd1db0c1b9d4b165b59e15395b051b97f109d4670e8b16d",
+    "figures/fig04_probe_nll.png": "708bfa0f65354b8309fb209070f7b02e00ea9e8f7fd73c782f7f23dc487076e2",
+    "figures/fig04_probe_nll.svg": "0615fdac35615278520eb3e78e3350c342514966115aba6548c2394a4ab6c9b4",
+    "figures/fig05_paired_margin_all_cells.png": "360776e84f5ab313fb46c5f541333f951ce02eb6581ac7c59478bf4ed1804f4a",
+    "figures/fig05_paired_margin_all_cells.svg": "1309a99538e041ec93bdd6668e1e5aef89474d6e276bb586eb5c6e709d69cc2e",
+    "figures/fig06_selection_controls_diagnostics.png": "6ace6a25f00f7307ae49732ff123b9c89e3efa3b81ef88ed5053613e89902e8a",
+    "figures/fig06_selection_controls_diagnostics.svg": "8c8985143c1897a617c6611b0cef01b9f81dace08b2d456ed647fd7f58258f39",
+    "figures/fig07_limited_m3_calibration.png": "c30fc8a87bc5b8b4459e8ec7b0103f7a4d5dc850e617ef08342888e18af6ba19",
+    "figures/fig07_limited_m3_calibration.svg": "f99cd0eabebb131a66445c04d752ed63aa143c496a6a374baf6e57d3e09c55f2"
+  },
+  "images": 14,
+  "limits": "Same fixed plotting environment only;does not re-execute training or release raw evidence",
+  "method": "Public CSV reproduction; only original footer changed; graph bodies verified against P3 separately",
+  "model_forwards": 0,
+  "plot_draw_body_sha256": "7207dcacd2551360cdd0a4f24e837b6255b32b9d2ff6f5fd28369f377f023359",
+  "public_CSV_only": true,
+  "status": "PASS"
+}

@@ -1,0 +1,4 @@
+role,N_sides,exact_correct
+training_fit,512,511
+development,256,34
+world_disjoint_heldout,512,38

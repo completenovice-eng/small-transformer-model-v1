@@ -1,0 +1,348 @@
+{
+  "author": "completenovice-eng",
+  "files": {
+    "AUTHORS.md": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "LICENSE.md": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "LICENSES/CC-BY-4.0.txt": {
+      "license": "LicenseRef-Standard-License-Text",
+      "rightsholder": "upstream standard text",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "LICENSES/MIT.txt": {
+      "license": "LicenseRef-Standard-License-Text",
+      "rightsholder": "upstream standard text",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "P3_FINAL_REVIEW.md": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "README.md": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "RELEASE_CHECKLIST.md": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "data/cell_trajectories.csv": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "data/condition_matrix.csv": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "data/interface_controls.csv": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "data/limited_m3_terminal.csv": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "data/limited_m3_trajectory.csv": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "data/negative_diagnostics.csv": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "data/probe_nll.csv": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "data/training_intervals.csv": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "evidence/claim_sources.json": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "evidence/display_receipt.json": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held original contributions only; no font redistribution",
+      "third_party_rights_relicensed": false
+    },
+    "evidence/export_manifest.json": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "evidence/methods_and_history.md": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "evidence/negative_results.md": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "evidence/readout_contract.md": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "evidence/reproduction_receipt.json": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "evidence/source_notes.md": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "figures/fig01_research_history.png": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "figures/fig01_research_history.svg": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "figures/fig02_condition_matrix.png": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "figures/fig02_condition_matrix.svg": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "figures/fig03_training_loss.png": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "figures/fig03_training_loss.svg": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "figures/fig04_probe_nll.png": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "figures/fig04_probe_nll.svg": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "figures/fig05_paired_margin_all_cells.png": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "figures/fig05_paired_margin_all_cells.svg": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "figures/fig06_selection_controls_diagnostics.png": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "figures/fig06_selection_controls_diagnostics.svg": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "figures/fig07_limited_m3_calibration.png": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "figures/fig07_limited_m3_calibration.svg": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "figures/note/note_fig01_history_ja.png": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held original contributions only; no font redistribution",
+      "third_party_rights_relicensed": false
+    },
+    "figures/note/note_fig01_history_ja.svg": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held original contributions only; no font redistribution",
+      "third_party_rights_relicensed": false
+    },
+    "figures/note/note_fig02_limited_m3_ja.png": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held original contributions only; no font redistribution",
+      "third_party_rights_relicensed": false
+    },
+    "figures/note/note_fig02_limited_m3_ja.svg": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held original contributions only; no font redistribution",
+      "third_party_rights_relicensed": false
+    },
+    "figures/note/note_fig03_training_loss_ja.png": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held original contributions only; no font redistribution",
+      "third_party_rights_relicensed": false
+    },
+    "figures/note/note_fig03_training_loss_ja.svg": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held original contributions only; no font redistribution",
+      "third_party_rights_relicensed": false
+    },
+    "licensing/SCOPE.json": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "licensing/SCOPE.md": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "licensing/THIRD_PARTY_NOTICES.md": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "references/README.md": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "references/external_sources.json": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "references/license_sources.json": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "report/claim_audit.md": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "report/figures_and_reproduction.md": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "report/technical_report.md": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "requirements.txt": {
+      "license": "CC-BY-4.0",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "scripts/audit_public_export.py": {
+      "license": "MIT",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    },
+    "scripts/build_display_figures.py": {
+      "license": "MIT",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held original contributions only; no font redistribution",
+      "third_party_rights_relicensed": false
+    },
+    "scripts/reproduce_figures.py": {
+      "license": "MIT",
+      "rightsholder": "completenovice-eng",
+      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
+      "third_party_rights_relicensed": false
+    }
+  },
+  "publication_authorized": true,
+  "researcher_license_policy": "APPROVED_P3",
+  "standard_text_sha256": {
+    "LICENSES/CC-BY-4.0.txt": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+    "LICENSES/MIT.txt": "ee4e6f85fec7bfc6ff9f8233bfd9813900ae330466731387c449c3d091efccaa"
+  },
+  "unidentified_rightsholder_files_included": []
+}
