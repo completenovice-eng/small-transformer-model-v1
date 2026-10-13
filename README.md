@@ -2,7 +2,7 @@
 
 **PUBLIC_OBS5_INTERIM_REPORT／記述的・探索的研究の中間報告**
 
-著者：**completenovice-eng**。
+ChatGPT-Sol-6.1を利用しています。
 公開repository：[small-transformer-model-v1](https://github.com/completenovice-eng/small-transformer-model-v1)。
 
 当初は学習経験Xから、直接解答を教えていない能力Yの形成を問う研究だった。
