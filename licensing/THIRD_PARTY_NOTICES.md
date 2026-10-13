@@ -12,6 +12,3 @@ AIは設計/実装/文書支援に関わり研究者が最終判断したが、r
 DejaVu SansはSVG内でfont-familyを参照しPNGで描画する。fontファイルやglyph font packageは同梱しない。
 標準license本文はSPDXのlicense-list-data収録版を無改変収録（MITの権利者欄のみ記入）。
 外部license本文を本研究のCC BY/MITで再許諾しない。各標準本文の条件と[出典](../references/license_sources.json)を参照。
-
-日本語派生図はNoto Sans CJK JPで描画。font本体を同梱せず、fontへ独自CC BY/MITを適用しない。
-[公式SIL OFL1.1](https://github.com/notofonts/noto-cjk/blob/main/Sans/LICENSE)とreceiptのsource SHAを記録した。

@@ -6,7 +6,7 @@
 対象はOBS-5終了時点。承認済み15 trajectoriesのうち、実行済みは**10M/MIX/r0の1本**。
 本稿は研究全体の最終論文ではない。実施済みは1/15である。著者：**completenovice-eng**（認証済みGitHub login）。所属・実名は掲載しない。
 重要な主張の出典・証拠水準は[claim audit](claim_audit.md)、
-図の再計算は[Figure provenance](figures_and_reproduction.md)、公開条件は[確認表](../RELEASE_CHECKLIST.md)を参照。
+図の再計算は[Figure provenance](figures_and_reproduction.md)、ライセンスの適用範囲は[ライセンス](../LICENSE.md)を参照。
 
 ## 1. 要旨
 

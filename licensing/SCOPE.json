@@ -25,19 +25,7 @@
       "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
       "third_party_rights_relicensed": false
     },
-    "P3_FINAL_REVIEW.md": {
-      "license": "CC-BY-4.0",
-      "rightsholder": "completenovice-eng",
-      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
-      "third_party_rights_relicensed": false
-    },
     "README.md": {
-      "license": "CC-BY-4.0",
-      "rightsholder": "completenovice-eng",
-      "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
-      "third_party_rights_relicensed": false
-    },
-    "RELEASE_CHECKLIST.md": {
       "license": "CC-BY-4.0",
       "rightsholder": "completenovice-eng",
       "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
@@ -95,12 +83,6 @@
       "license": "CC-BY-4.0",
       "rightsholder": "completenovice-eng",
       "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
-      "third_party_rights_relicensed": false
-    },
-    "evidence/display_receipt.json": {
-      "license": "CC-BY-4.0",
-      "rightsholder": "completenovice-eng",
-      "scope": "Researcher-held original contributions only; no font redistribution",
       "third_party_rights_relicensed": false
     },
     "evidence/export_manifest.json": {
@@ -223,42 +205,6 @@
       "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
       "third_party_rights_relicensed": false
     },
-    "figures/note/note_fig01_history_ja.png": {
-      "license": "CC-BY-4.0",
-      "rightsholder": "completenovice-eng",
-      "scope": "Researcher-held original contributions only; no font redistribution",
-      "third_party_rights_relicensed": false
-    },
-    "figures/note/note_fig01_history_ja.svg": {
-      "license": "CC-BY-4.0",
-      "rightsholder": "completenovice-eng",
-      "scope": "Researcher-held original contributions only; no font redistribution",
-      "third_party_rights_relicensed": false
-    },
-    "figures/note/note_fig02_limited_m3_ja.png": {
-      "license": "CC-BY-4.0",
-      "rightsholder": "completenovice-eng",
-      "scope": "Researcher-held original contributions only; no font redistribution",
-      "third_party_rights_relicensed": false
-    },
-    "figures/note/note_fig02_limited_m3_ja.svg": {
-      "license": "CC-BY-4.0",
-      "rightsholder": "completenovice-eng",
-      "scope": "Researcher-held original contributions only; no font redistribution",
-      "third_party_rights_relicensed": false
-    },
-    "figures/note/note_fig03_training_loss_ja.png": {
-      "license": "CC-BY-4.0",
-      "rightsholder": "completenovice-eng",
-      "scope": "Researcher-held original contributions only; no font redistribution",
-      "third_party_rights_relicensed": false
-    },
-    "figures/note/note_fig03_training_loss_ja.svg": {
-      "license": "CC-BY-4.0",
-      "rightsholder": "completenovice-eng",
-      "scope": "Researcher-held original contributions only; no font redistribution",
-      "third_party_rights_relicensed": false
-    },
     "licensing/SCOPE.json": {
       "license": "CC-BY-4.0",
       "rightsholder": "completenovice-eng",
@@ -323,12 +269,6 @@
       "license": "MIT",
       "rightsholder": "completenovice-eng",
       "scope": "Researcher-held rights in original contributions only; external works/names/factual observations not exclusively claimed",
-      "third_party_rights_relicensed": false
-    },
-    "scripts/build_display_figures.py": {
-      "license": "MIT",
-      "rightsholder": "completenovice-eng",
-      "scope": "Researcher-held original contributions only; no font redistribution",
       "third_party_rights_relicensed": false
     },
     "scripts/reproduce_figures.py": {

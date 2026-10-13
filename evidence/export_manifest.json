@@ -2,7 +2,7 @@
   "anonymization": "Whitelist only;relative links to public summaries;no result/metric/filter changes;private raw cannot be independently verified from this copy",
   "author": "completenovice-eng",
   "candidate_repository_name": "small-transformer-model-v1",
-  "display_changes": "Only core figure footer changed; note Japanese layouts added; CSV/scorer/bank/claims unchanged",
+  "display_changes": "Only technical figure footer changed from original scientific figures; CSV/scorer/bank/claims unchanged; note-only display assets are not included in this GitHub subset",
   "excluded": [
     "existingGitHistory",
     "checkpointsWeights",
@@ -15,7 +15,9 @@
     "privateEnvironmentIdentifiers",
     "remoteSSHcredentials",
     "noteDraft",
-    "unused_answer_length_strata_table_648rows(no_target_or_result_filtering)"
+    "unused_answer_length_strata_table_648rows(no_target_or_result_filtering)",
+    "publicationPreparationRecords",
+    "noteOnlyDisplayAssetsAndTools"
   ],
   "figure_methods": [
     {
@@ -68,8 +70,9 @@
       "P4_display_source_sha256": "15276b1cfafe65c3c5bbc744dba6390df7ba56ab669f42050bdeddb32a46007f",
       "bytes": 1036,
       "license": "CC-BY-4.0",
-      "method": "PUBLIC_DISPLAY_DERIVATIVE",
-      "sha256": "15276b1cfafe65c3c5bbc744dba6390df7ba56ab669f42050bdeddb32a46007f"
+      "method": "PUBLIC_DOCUMENTATION_CLEANUP",
+      "previous_public_sha256": "15276b1cfafe65c3c5bbc744dba6390df7ba56ab669f42050bdeddb32a46007f",
+      "sha256": "d698aa5d67e215c57998d3cb988e4a82fcdc2017516e53888204b13a223f40b0"
     },
     "LICENSES/CC-BY-4.0.txt": {
       "P3_source_sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
@@ -87,29 +90,14 @@
       "method": "P3_BYTE_IDENTICAL",
       "sha256": "ee4e6f85fec7bfc6ff9f8233bfd9813900ae330466731387c449c3d091efccaa"
     },
-    "P3_FINAL_REVIEW.md": {
-      "P3_source_sha256": "b396d710c017924c1f93bafc8204b5a49002a413ea6edeedb7b25b861746d438",
-      "P4_display_source_sha256": "d4c87e37b0801d4f0a1b321611e4638721fa285fdf2604283246bc0b6f3809bb",
-      "bytes": 1332,
-      "license": "CC-BY-4.0",
-      "method": "PUBLIC_DISPLAY_DERIVATIVE",
-      "sha256": "3df2b63c88d2389caa4af04e79179f0dad5f2a106a6634a28834cb026f829188"
-    },
     "README.md": {
       "P3_source_sha256": "0e892b01be60d7da866e2cc85ec50a1208baa658c95492bdcbcd5e6ac68b2e07",
       "P4_display_source_sha256": "b257070adc4c5dec753ede5313e92bb556faa2b402a4bc688a089093b97cdd51",
-      "bytes": 3100,
+      "bytes": 2316,
       "license": "CC-BY-4.0",
-      "method": "PUBLIC_DISPLAY_DERIVATIVE",
-      "sha256": "132842ebfd0355f5f0b5df56574d002d545a2528195bd35ddb1e217b1b7f56b4"
-    },
-    "RELEASE_CHECKLIST.md": {
-      "P3_source_sha256": "968e49e310f899323014ad549eb269480630102417467ed6746abe259f25aea2",
-      "P4_display_source_sha256": "968e49e310f899323014ad549eb269480630102417467ed6746abe259f25aea2",
-      "bytes": 971,
-      "license": "CC-BY-4.0",
-      "method": "P3_BYTE_IDENTICAL",
-      "sha256": "3c26975b3d34aeeffe665abea7845a5b166e20f71b1fed58cb6ac3760d8b25dd"
+      "method": "PUBLIC_DOCUMENTATION_CLEANUP",
+      "previous_public_sha256": "64640c00735a7077d5af9959e3e6e38276aad5c714a6184b0a57e121d01c82e1",
+      "sha256": "ba2f9a5121f14447e1813a22a82539b24907252ecdc950c592c31144f3d6a37b"
     },
     "data/cell_trajectories.csv": {
       "P3_source_sha256": "c6b90e9e328d868f731c9ddeaf8cb3b8820ae2da6179fc4d02151563a62bc59d",
@@ -182,14 +170,6 @@
       "license": "CC-BY-4.0",
       "method": "P3_BYTE_IDENTICAL",
       "sha256": "831df41ed7bac50205f5de191b4db2b853d3a5e6344d563ecb018701ee5e1e56"
-    },
-    "evidence/display_receipt.json": {
-      "P3_source_sha256": null,
-      "P4_display_source_sha256": "b64fb13ab6e6863192938c3c7071efd3695da727d8835d872d7168d5798486c3",
-      "bytes": 2974,
-      "license": "CC-BY-4.0",
-      "method": "PUBLIC_DISPLAY_DERIVATIVE",
-      "sha256": "b64fb13ab6e6863192938c3c7071efd3695da727d8835d872d7168d5798486c3"
     },
     "evidence/methods_and_history.md": {
       "P3_source_sha256": "8a715301151bb2f071c03577f5f5e1010498b6008f2567240f8b5ab4eda0a9e9",
@@ -343,61 +323,14 @@
       "method": "PUBLIC_DISPLAY_DERIVATIVE",
       "sha256": "f99cd0eabebb131a66445c04d752ed63aa143c496a6a374baf6e57d3e09c55f2"
     },
-    "figures/note/note_fig01_history_ja.png": {
-      "P3_source_sha256": null,
-      "P4_display_source_sha256": "c5dda17073b894ae26ddcf6c2fc90c5161839793a6a4f7cf7e4a3a568e557cb6",
-      "bytes": 183194,
-      "license": "CC-BY-4.0",
-      "method": "PUBLIC_DISPLAY_DERIVATIVE",
-      "sha256": "c5dda17073b894ae26ddcf6c2fc90c5161839793a6a4f7cf7e4a3a568e557cb6"
-    },
-    "figures/note/note_fig01_history_ja.svg": {
-      "P3_source_sha256": null,
-      "P4_display_source_sha256": "d4d5ccb6bde926549cc9fa3aeaf9284fa98d35c71d28845854fbb69832195d9a",
-      "bytes": 5554,
-      "license": "CC-BY-4.0",
-      "method": "PUBLIC_DISPLAY_DERIVATIVE",
-      "sha256": "d4d5ccb6bde926549cc9fa3aeaf9284fa98d35c71d28845854fbb69832195d9a"
-    },
-    "figures/note/note_fig02_limited_m3_ja.png": {
-      "P3_source_sha256": null,
-      "P4_display_source_sha256": "08589465d405ae41342ccc2e1350becec71e86a3545918b3f4eaa28d6f5a9f6f",
-      "bytes": 220610,
-      "license": "CC-BY-4.0",
-      "method": "PUBLIC_DISPLAY_DERIVATIVE",
-      "sha256": "08589465d405ae41342ccc2e1350becec71e86a3545918b3f4eaa28d6f5a9f6f"
-    },
-    "figures/note/note_fig02_limited_m3_ja.svg": {
-      "P3_source_sha256": null,
-      "P4_display_source_sha256": "2cca5b29265c707e13e1d5fb50b026053ec3ca5ac38a377b576542d600ba05e0",
-      "bytes": 17697,
-      "license": "CC-BY-4.0",
-      "method": "PUBLIC_DISPLAY_DERIVATIVE",
-      "sha256": "2cca5b29265c707e13e1d5fb50b026053ec3ca5ac38a377b576542d600ba05e0"
-    },
-    "figures/note/note_fig03_training_loss_ja.png": {
-      "P3_source_sha256": null,
-      "P4_display_source_sha256": "6325f8aed9f48f1ab1b0fbae79d6911bd0c5f2fa5c05c789e82b0ad3ec1a9a21",
-      "bytes": 193897,
-      "license": "CC-BY-4.0",
-      "method": "PUBLIC_DISPLAY_DERIVATIVE",
-      "sha256": "6325f8aed9f48f1ab1b0fbae79d6911bd0c5f2fa5c05c789e82b0ad3ec1a9a21"
-    },
-    "figures/note/note_fig03_training_loss_ja.svg": {
-      "P3_source_sha256": null,
-      "P4_display_source_sha256": "7734377c911968a9888dc54f042ba8ac1e8096bc158f92c73bd24369402ec092",
-      "bytes": 29429,
-      "license": "CC-BY-4.0",
-      "method": "PUBLIC_DISPLAY_DERIVATIVE",
-      "sha256": "7734377c911968a9888dc54f042ba8ac1e8096bc158f92c73bd24369402ec092"
-    },
     "licensing/SCOPE.json": {
       "P3_source_sha256": "e4476ee9214cfbf293e7170d8d076ae2980d51718113600e1dbd718ba2846f2e",
       "P4_display_source_sha256": "139d1c92a9379418b1f2f0520139c45848a1c9f81158e3875c3316a6c13ca55c",
-      "bytes": 17059,
+      "bytes": 14394,
       "license": "CC-BY-4.0",
-      "method": "PUBLIC_DISPLAY_DERIVATIVE",
-      "sha256": "fb016b423af28ba1d3bc56ae5dc24bb419f06a31f474d795c14f3116e17bbec9"
+      "method": "PUBLIC_DOCUMENTATION_CLEANUP",
+      "previous_public_sha256": "fb016b423af28ba1d3bc56ae5dc24bb419f06a31f474d795c14f3116e17bbec9",
+      "sha256": "6acd63ccdb4daf88963dea08a20eb94035758bb207c2139439753ae9a48d1b58"
     },
     "licensing/SCOPE.md": {
       "P3_source_sha256": "875730077285b4977a9cb2ed9cb242929da849e9c2c67b322a5fe6862ab3877a",
@@ -410,10 +343,11 @@
     "licensing/THIRD_PARTY_NOTICES.md": {
       "P3_source_sha256": "a0331890496259c3591c8f9e70a9f3cd1bd6cca6454334ad396cb3d9f0322e21",
       "P4_display_source_sha256": "d77ee9a35cff1c292531e5025c7458cfcda724d06cc0b4c24752e3919e974274",
-      "bytes": 1825,
+      "bytes": 1581,
       "license": "CC-BY-4.0",
-      "method": "PUBLIC_DISPLAY_DERIVATIVE",
-      "sha256": "d77ee9a35cff1c292531e5025c7458cfcda724d06cc0b4c24752e3919e974274"
+      "method": "PUBLIC_DOCUMENTATION_CLEANUP",
+      "previous_public_sha256": "d77ee9a35cff1c292531e5025c7458cfcda724d06cc0b4c24752e3919e974274",
+      "sha256": "a0331890496259c3591c8f9e70a9f3cd1bd6cca6454334ad396cb3d9f0322e21"
     },
     "references/README.md": {
       "P3_source_sha256": "feb7e7b779896cfb964839eaeba900f3ae28b2cd9deed0c56db3f932dcb69d74",
@@ -450,18 +384,20 @@
     "report/figures_and_reproduction.md": {
       "P3_source_sha256": "ac4677396bdb033220c74e6efe936c725d370bb60a0f82ba07184c54bf70ce91",
       "P4_display_source_sha256": "0d03d40565801e068b8cdca76b9477eff15d9eec8ae8a570e2c15b09aab50f6f",
-      "bytes": 3148,
+      "bytes": 1745,
       "license": "CC-BY-4.0",
-      "method": "PUBLIC_DISPLAY_DERIVATIVE",
-      "sha256": "0d03d40565801e068b8cdca76b9477eff15d9eec8ae8a570e2c15b09aab50f6f"
+      "method": "PUBLIC_DOCUMENTATION_CLEANUP",
+      "previous_public_sha256": "0d03d40565801e068b8cdca76b9477eff15d9eec8ae8a570e2c15b09aab50f6f",
+      "sha256": "f3a2e61e12884d7610aac44b4e93cca076509b9dd0520c93082f2385d60d4a64"
     },
     "report/technical_report.md": {
       "P3_source_sha256": "1de5c80854397f84bff3698332d27b15d781bab1f66259ba857d7c86d655ad40",
       "P4_display_source_sha256": "9c559a08b7d97c242c1cbf4bfdb5f8cef14321632aaf13b20df7f00834c767fe",
-      "bytes": 28954,
+      "bytes": 28968,
       "license": "CC-BY-4.0",
-      "method": "PUBLIC_DISPLAY_DERIVATIVE",
-      "sha256": "27d400f3e2676ab30ba827d6741d547e5efbf93331aeb61e892b03990e26321b"
+      "method": "PUBLIC_DOCUMENTATION_CLEANUP",
+      "previous_public_sha256": "27d400f3e2676ab30ba827d6741d547e5efbf93331aeb61e892b03990e26321b",
+      "sha256": "d3d55711c0c7aaae4f32640287509dea02191a77fd5bda126ad7a6c7178570fd"
     },
     "requirements.txt": {
       "P3_source_sha256": "f4a7607b00ee5cf33397ec61bd5148245d4d465f3797ccab82ef2498b146e9ba",
@@ -479,14 +415,6 @@
       "method": "PUBLIC_DISPLAY_DERIVATIVE",
       "sha256": "1b978e9ad550715bfb2d37adbfc8f529c17cfacbdd113e2217f18881199fb78b"
     },
-    "scripts/build_display_figures.py": {
-      "P3_source_sha256": null,
-      "P4_display_source_sha256": "b8ae679cbffecc95c13378b80624df0715c9985764e01b9901d4e773befe02df",
-      "bytes": 9319,
-      "license": "MIT",
-      "method": "PUBLIC_DISPLAY_DERIVATIVE",
-      "sha256": "b8ae679cbffecc95c13378b80624df0715c9985764e01b9901d4e773befe02df"
-    },
     "scripts/reproduce_figures.py": {
       "P3_source_sha256": "7c457b6d0bcf73945a407bf99b0c93eb4ec840ffce7f4aaf192e6d8a51453fbe",
       "P4_display_source_sha256": "60801d3364c03ac9a81fe7ffa97a9b5915b6823b33084a63065d9defb4ab66fc",
@@ -501,7 +429,7 @@
   "original_record_commit": "6ec1d7ee06f7fc4d8ebd83da53fb84045715d653",
   "plot_draw_body_sha256": "7207dcacd2551360cdd0a4f24e837b6255b32b9d2ff6f5fd28369f377f023359",
   "publication_authorized": true,
-  "release_changes": "Publication-status/URL/identity documentation and clone-compatible file auditor only; scientific measurements and graphics unchanged",
+  "release_changes": "Publication documentation and clone-compatible auditor; subsequent cleanup removes preparation records and note-only assets, updates links/file hashes/license scope; technical figures, CSV, claims and scientific constraints unchanged",
   "repository_url": "https://github.com/completenovice-eng/small-transformer-model-v1",
   "reproducibility": {
     "A_public_aggregate_plots": "PASS_BOUND_PUBLIC_CSV_REPRODUCTION",

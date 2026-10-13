@@ -3,7 +3,7 @@
 Copyright (c) 2026 completenovice-eng, to the extent of rights held.
 
 研究者が権利を持つ技術報告・独自図表・集計データ・公開用説明は **CC BY 4.0**。
-公開独自スクリプト3本は **MIT License**。第三者の権利・原作品へ自動適用しない。
+公開独自スクリプト2本は **MIT License**。第三者の権利・原作品へ自動適用しない。
 
 - [CC BY 4.0 standard text](LICENSES/CC-BY-4.0.txt)
 - [MIT standard text](LICENSES/MIT.txt)
