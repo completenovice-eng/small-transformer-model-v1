@@ -20,11 +20,6 @@ TRAIN/Core Evalには内容重複がある。loss/margin上昇を能力発現、
 5. [ファイルとSHA](evidence/export_manifest.json) / [公開時チェック](RELEASE_CHECKLIST.md)
 6. [ライセンス](LICENSE.md) / [ファイル別適用範囲](licensing/SCOPE.json) / [著者・AI支援](AUTHORS.md)
 
-## 再現できる範囲
-
-A：公開集計CSVから図表を再生成できることは検証した。
-B：元のモデル訓練を一から再実行する資産一式、C：非公開raw evidenceの独立検証は、このrepositoryでは提供しない。
-Historicalな確認区分は非公開原本に基づく記録であり、rawを第三者へ提供した証拠ではない。
 
 ```sh
 python -m pip install -r requirements.txt
@@ -33,8 +28,7 @@ python scripts/audit_public_export.py --root .
 ```
 
 研究コード全体・weights/checkpoints・training data・tokenizer・全TRAIN stream・raw responses・private recovery/ledgerは含めない。
-旧研究用repositoryの履歴を含めず、公開用の独立した新規Git履歴を使用する。commit identityには本人のGitHub noreplyを明示設定する。
-私用メール・認証情報・ローカル環境固有の記録は公開対象外。自動scanは安全性の完全保証ではない。
+
 
 ## ライセンスと科学的制約
 
