@@ -16,9 +16,8 @@ TRAIN/Core Evalには内容重複がある。loss/margin上昇を能力発現、
 1. [技術報告](report/technical_report.md)
 2. [研究史・方法論](evidence/methods_and_history.md) / [14negative records](evidence/negative_results.md)
 3. [P01–P31 claim audit](report/claim_audit.md) / [元証拠の説明](evidence/source_notes.md)
-4. [図表再生成](report/figures_and_reproduction.md)
-5. [ファイルとSHA](evidence/export_manifest.json)
-6. [ライセンス](LICENSE.md) / [ファイル別適用範囲](licensing/SCOPE.json) / [著者・AI支援](AUTHORS.md)
+4. [ファイルとSHA](evidence/export_manifest.json)
+5. [ライセンス](LICENSE.md) / [ファイル別適用範囲](licensing/SCOPE.json) / [著者・AI支援](AUTHORS.md)
 
 
 ```sh
