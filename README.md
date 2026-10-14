@@ -19,16 +19,6 @@ TRAIN/Core Evalには内容重複がある。loss/margin上昇を能力発現、
 4. [ファイルとSHA](evidence/export_manifest.json)
 5. [ライセンス](LICENSE.md) / [ファイル別適用範囲](licensing/SCOPE.json) / [著者・AI支援](AUTHORS.md)
 
-
-```sh
-python -m pip install -r requirements.txt
-python scripts/reproduce_figures.py --output ../reproduced-figures
-python scripts/audit_public_export.py --root .
-```
-
-研究コード全体・weights/checkpoints・training data・tokenizer・全TRAIN stream・raw responses・private recovery/ledgerは含めない。
-
-
 ## ライセンスと科学的制約
 
 独自報告・図表・集計等は、研究者保有の権利の範囲でCC BY 4.0。独自公開スクリプト2本はMIT。
